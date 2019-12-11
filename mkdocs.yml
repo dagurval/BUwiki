@@ -1,0 +1,10 @@
+site_name: Bitcoin Cash Reference Documentation
+docs_dir: docs
+nav:
+    - Home: index.md
+    - Glossary: glossary.md
+    - Protocol: protocol.md
+plugins:
+    - markdownmermaid
+extra_javascript:
+    - https://unpkg.com/mermaid@7.1.2/dist/mermaid.min.js
