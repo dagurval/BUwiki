@@ -12,3 +12,4 @@ plugins:
     - search
 extra_javascript:
     - https://unpkg.com/mermaid@7.1.2/dist/mermaid.min.js
+repo_url: https://github.com/bitcoin-unlimited/BUwiki
