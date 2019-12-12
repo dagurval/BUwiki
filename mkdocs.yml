@@ -1,5 +1,8 @@
 site_name: Bitcoin Cash Reference Documentation
 docs_dir: docs
+theme:
+    name: mkdocs
+    custom_dir: custom_theme
 nav:
     - Home: index.md
     - Glossary: glossary.md
