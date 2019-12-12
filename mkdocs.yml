@@ -9,5 +9,6 @@ nav:
     - Protocol: protocol.md
 plugins:
     - markdownmermaid
+    - search
 extra_javascript:
     - https://unpkg.com/mermaid@7.1.2/dist/mermaid.min.js
