@@ -1,5 +1,6 @@
 site_name: Bitcoin Cash Reference Documentation
 docs_dir: docs
+repo_url: https://github.com/bitcoin-unlimited/BUwiki
 theme:
     name: mkdocs
     custom_dir: custom_theme
@@ -8,8 +9,7 @@ nav:
     - Glossary: glossary.md
     - Protocol: protocol.md
 plugins:
-    - markdownmermaid
+    - referencecash
     - search
 extra_javascript:
     - https://unpkg.com/mermaid@7.1.2/dist/mermaid.min.js
-repo_url: https://github.com/bitcoin-unlimited/BUwiki

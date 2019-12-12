@@ -4,12 +4,11 @@
 
 ## One-time setup
 
-We need Python2 because the mermaid has not pushed an update for python3 compatibility.
-They have fixed it though in their repo.
-
 ```
-pip install mkdocs
-pip install mkdocs-mermaid-plugin
+pip3 install mkdocs
+pip3 install python-markdown-math
+pip3 install bs4
+(cd mkdocs-referencecash-plugin; sudo python3 setup.py install)
 ```
 
 ## Run
@@ -27,3 +26,6 @@ docker build -t buwiki .
 ```
 ./start-docker.sh
 ```
+
+# LaTeX syntax
+[See Julia docs](https://juliadocs.github.io/Documenter.jl/v0.1/man/latex/)
